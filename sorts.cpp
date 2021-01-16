@@ -126,7 +126,7 @@ int main()
     //std::vector<int> myVec{ 0, -1, 2, -3, 4, 1 };
   //  std::cout << vec.size()-1<<"\n";
     print(vec);
-    shell_sort(vec, (vec.size()-1));
+    shell_sort(vec, vec.size());
     print(vec);
     return 0;
 }
